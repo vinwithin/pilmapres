@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+html {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.wrapper {
+    height: 100vh;
+}
+.wrap {
+    background: url("/assets/hero-img.png") no-repeat center center/cover;
+}
+#navigasi {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 28rem;
+    align-items: center;
+    padding: 1.5rem 5%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#navigasi img {
+    max-width: 9rem;
+}
+#navigasi a {
+    color: #00135e;
+
+    /* Heading 3 */
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-link {
+    color: #00135e;
+}
+#button-login {
+    display: flex;
+    background: rgba(2, 62, 138, 1);
+    width: 7.9rem;
+    height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+#button-login a {
+    color: #fff;
+    /* Button */
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 135% */
+}
+#hero {
+    height: 90vh;
+    padding: 1.5rem 5%;
+    border-radius: 0px 0px 50px 50px;
+    background: #00135e;
+    position: relative;
+}
+.hero-title h1 {
+    color: #f6faf9;
+    /* Display 1 */
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-title p {
+    color: #fff;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 145.833% */
+}
+
+.btn-daftar {
+    display: flex;
+    width: 247px;
+
+    height: 56px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #f6faf9;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    color: #00135e;
+    text-decoration: none;
+    /* Button */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 135% */
+}
+
+.btn-peringkat {
+    display: flex;
+    height: 56px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #fd871f;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    color: #f6faf9;
+    text-decoration: none;
+
+    /* Button */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 135% */
+}
+.hero-img {
+    width: 32rem;
+    height: 50rem;
+}
+
+.hero-img img {
+    position: absolute;
+    width: 50%; /* Menyesuaikan wadah hero-img */
+    height: 95%;
+    right: 6%;
+    bottom: 0;
+    /* z-index: -9999; */
+}
+#deskripsi {
+    height: 80vh;
+    padding: 1.5rem 5%;
+}
+.pilmapres-title {
+    color: #00135e;
+
+    /* Display 1 */
+    font-family: Montserrat;
+    font-size: 72px;
+    line-height: 120%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pilmapres-desc {
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-indent: 2em;
+}
+.pilmapres-desc2 {
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    text-indent: 2em;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+#panduan {
+    height: 90vh;
+    padding: 1.5rem 5%;
+}
+#panduan h1 {
+    color: #00135e;
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btn-panduan {
+    display: flex;
+    width: 477px;
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #00135e;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    color: #f6faf9;
+    text-align: center;
+    text-decoration: none;
+
+    /* Button */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 135% */
+}
+.panduan-heading {
+    color: #00135e;
+
+    /* Heading 3 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.syarat li {
+    color: #00135e;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+.dokumen li {
+    color: #00135e;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+.bg-kriteria {
+    color: white;
+    display: flex;
+    height: 200px;
+    width: 700px;
+    padding: 25px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #00135e;
+
+    /* X: 0, Y: 4, Blur 8, Opacity: 15% */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+#timeline {
+    height: 60vh;
+    padding: 1.5rem 3%;
+}
+
+#bg-timeline {
+    height: 60vh;
+    border-radius: 50px;
+    background: #00135e;
+}
+#bg-timeline h1 {
+    color: #f6faf9;
+    text-align: center;
+    /* Heading 2 */
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#bg-timeline h3 {
+    color: #f6faf9;
+    text-align: center;
+
+    /* Heading 3 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#rekam-jejak {
+    height: 70vh;
+    padding: 1.5rem 8%;
+}
+#rekam-jejak h1 {
+    color: #00135e;
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#rekam-jejak h5 {
+    color: #8a8a8a;
+    text-align: center;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card {
+    margin-top: 30px;
+    width: 490px;
+    height: 457px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.prodi {
+    color: #ff7426;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer {
+    background: #00135e;
+    color: white;
+    padding: 1.5rem 5%;
+    height: 356px;
+    flex-shrink: 0;
+}
+.footer-heading {
+    color: #f6faf9;
+    margin-bottom: 16px;
+    /* Heading 3 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.list-footer {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-footer li {
+    margin-bottom: 0.5rem;
+}
+.list-footer li p {
+    color: #f6faf9;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.list-link {
+    list-style: none;
+    padding-left: 0;
+}
+.list-link li {
+    margin-bottom: 0.5rem;
+}
+.list-link li a {
+    color: #f6faf9;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 991.98px) {
+    /* Ukuran breakpoint Bootstrap untuk navbar collapse */
+    .navbar {
+        position: fixed; /* Menempel di atas */
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background: rgba(
+            255,
+            255,
+            255,
+            0.3
+        ); /* Warna putih dengan transparansi */
+        backdrop-filter: blur(10px); /* Efek blur agar tetap elegan */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px 25px; /* Tambahkan padding agar ada ruang */
+    }
+
+    .navbar-nav {
+        margin-top: 10px; /* Tambahkan sedikit margin agar tidak terlalu mepet */
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px !important;
+    }
+    #button-login {
+        display: flex;
+        background-color: rgba(6, 77, 63, 1);
+        width: 8.9rem;
+        height: 3.2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+    #button-login a {
+        color: rgba(255, 255, 255, 1);
+    }
+    #hero-content {
+        flex-direction: column; /* Gambar di atas, teks di bawah */
+        justify-content: center;
+    }
+    #hero-content h1{
+        font-size:34px;
+    }
+    .hero-img{
+        display:none;
+    }
+    .btn-hero{
+        flex-direction:column !important;
+    }
+    .btn-peringkat{
+        padding: 10px 50px;
+    }
+    #deskripsi {
+        height: 120vh;
+    }
+    #deskripsi-content {
+        flex-direction: column;
+        align-items: center; /* agar konten lebih terpusat */
+        text-align: center; /* opsional, agar teks rata tengah di mobile */
+    }
+
+    #deskripsi-content > div {
+        width: 100%;
+    }
+
+    #deskripsi-content img {
+        max-width: 40%;
+        height: auto;
+        margin-top: 1rem;
+    }
+    #panduan {
+        height: 190vh;
+    }
+    #panduan-content {
+        flex-direction: column !important;
+        align-items: center;
+        /* text-align: center; */
+        position: static; /* Ubah absolute jadi static di mobile agar tidak overlap */
+    }
+
+    #panduan-content > div {
+        width: 100%;
+    }
+
+    #panduan-content > div:last-child {
+        padding-left: 0 !important; /* hilangkan ps-5 di mobile */
+    }
+
+    #panduan-content > div:nth-child(2) {
+        display: none; /* sembunyikan garis vertikal pembatas */
+    }
+    .bg-kriteria {
+        width: 110%;
+    }
+    #bg-timeline img {
+        width: 90%;
+    }
+
+    #rekam-jejak {
+        height: 180vh;
+    }
+    #rekam-jejak-content {
+        flex-direction: column !important;
+        align-items: center;
+        /* text-align: center; */
+        position: static; /* Ubah absolute jadi static di mobile agar tidak overlap */
+    }
+
+    #rekam-jejak-content > div {
+        width: 100%;
+    }
+    #rekam-jejak .card {
+        width: 70%;
+        height: 100%;
+    }
+    footer {
+        height: 60vh;
+    }
+    #footer-content {
+        flex-direction: column !important;
+        gap:1.5rem;
+        align-items: center;
+        /* text-align: center; */
+        position: static; /* Ubah absolute jadi static di mobile agar tidak overlap */
+    }
+    #footer-content a img{
+        width:80%;
+    }
+    #footer-content > div {
+        width: 100%;
+    }
+}
